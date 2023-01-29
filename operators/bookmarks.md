@@ -9,3 +9,5 @@
   - Example: `cache.desiredcloud.com`, `config.desiredcloud.com`, cache and config are 2 different groups in same operator
 - Testing Kubernetes Controllers
   - [ref1](https://superorbital.io/journal/testing-production-controllers/)
+- CRD Immutability:
+  - [Enforce CRD Immutability with CEL Transition Rules](https://kubernetes.io/blog/2022/09/29/enforce-immutability-using-cel/)
