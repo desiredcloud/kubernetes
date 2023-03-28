@@ -24,3 +24,7 @@
 - Sig Architecture:
   - [API Convnetions](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md)
 
+---
+#### YouTube
+- [Best Practices on writing a Kubernetes Operator](https://www.youtube.com/watch?v=r5HzbpHDxK0)
+
