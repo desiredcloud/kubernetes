@@ -2,6 +2,7 @@
 
 - Operators:
   - [CNCF Operator White Paper](https://github.com/cncf/tag-app-delivery/blob/eece8f7307f2970f46f100f51932db106db46968/operator-wg/whitepaper/Operator-WhitePaper_v1-0.md)
+  - [10 Things You Should Know Before Writing a Kubernetes Controller](https://medium.com/@gallettilance/10-things-you-should-know-before-writing-a-kubernetes-controller-83de8f86d659)
 - Operator Pattern:
   - [Extending Kubernetes - Operator Pattern](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)
 - [kubebuilder-declarative-pattern](https://github.com/kubernetes-sigs/kubebuilder-declarative-pattern)
