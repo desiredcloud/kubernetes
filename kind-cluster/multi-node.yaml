@@ -1,0 +1,38 @@
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+containerdConfigPatches:
+- |-
+  [plugins."io.containerd.grpc.v1.cri".registry.mirrors."localhost:5001"]
+    endpoint = ["http://kind-registry:5000"]
+networking:
+  apiServerAddress: "0.0.0.0"
+nodes:
+- role: control-plane
+  kubeadmConfigPatches:
+  - |
+    kind: ClusterConfiguration
+    metadata:
+      name: config
+    apiServer:
+      certSANs:
+      - localhost
+      - 127.0.0.1
+      - kubernetes
+      - kubernetes.default.svc
+      - kubernetes.default.svc.cluster.local
+      - kind
+      - 0.0.0.0
+      - 192.168.0.103
+- role: worker
+- role: worker
+- role: worker
+---
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: local-registry-hosting
+  namespace: kube-public
+data:
+  localRegistryHosting.v1: |
+    host: "localhost:5001"
+    help: "https://kind.sigs.k8s.io/docs/user/local-registry/"
