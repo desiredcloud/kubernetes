@@ -1,0 +1,13 @@
+
+- https://www.densify.com/kubernetes-autoscaling/kubernetes-resource-quota/
+- https://stackoverflow.com/questions/59212544/how-to-find-available-resources-in-a-kubernetes-cluster-level
+- https://kubernetes.io/docs/tasks/administer-cluster/reserve-compute-resources/#node-allocatable
+- https://www.jeffgeerling.com/blog/2019/monitoring-kubernetes-cluster-utilization-and-capacity-poor-mans-way
+- https://www.bmc.com/blogs/kubernetes-compute-resources/
+- https://learnk8s.io/allocatable-resources
+- https://learnk8s.io/kubernetes-node-size
+- https://www.middlewareinventory.com/blog/cpu-memory-usage-nodes-k8s/
+- https://github.com/robscott/kube-capacity
+- https://itnext.io/dive-deep-into-resource-requests-and-limits-in-kubernetes-3e99030697ec
+- https://github.com/kubernetes/kubernetes/blob/master/pkg/apis/core/types.go#L5269
+- 
