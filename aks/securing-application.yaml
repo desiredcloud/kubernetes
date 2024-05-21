@@ -1,0 +1,19 @@
+## Securing your application with HTTPS
+
+- HTTPS makes use of TLS(Transport Layer Security) certificates to encrypt traffic between as end user and a server, or between two servers.
+- TLS is successor of SSL(Secure Sockets Layer)
+- We can buy certificates from a Certificate Authority(CA) and set them on web server
+- Or, we can user `Let's Encrypt`(free service that offers verified TLS certificates in an automated manner)
+
+
+## Ingress
+
+- Ingress is an object within k8s that manages external access to services.
+
+
+## Cert-manager
+
+- Helps in automating the creation of TLS certificates
+- Helps in rotation of certificates
+- `Cert-manager` can interface with Let's Encrypt to request certificates automatically
+- So, cert-manager is an interface between Let's encrypt and ingress

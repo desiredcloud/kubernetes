@@ -4,3 +4,4 @@
 - [DevOps](https://roadmap.sh/devops)
 ##### List of tools
 - [kubetools](https://collabnix.github.io/kubetools/)
+- [kerno](https://www.kerno.io/resources/kubernetes-tools)
