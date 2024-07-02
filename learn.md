@@ -6,3 +6,4 @@
 - [https://github.com/techiescamp/kubernetes-learning-path](https://github.com/techiescamp/kubernetes-learning-path)
 - https://epam.github.io/edp-install/overview/ # Note: this is good example and we can learn a lot from companies docs
 - https://workshop.stakater.com/
+- https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md
