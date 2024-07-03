@@ -7,3 +7,4 @@
 - https://epam.github.io/edp-install/overview/ # Note: this is good example and we can learn a lot from companies docs
 - https://workshop.stakater.com/
 - https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md
+- https://raesene.github.io/
