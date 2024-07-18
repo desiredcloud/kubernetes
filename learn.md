@@ -9,3 +9,6 @@
 - https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md
 - https://raesene.github.io/
 - https://github.com/ahmetb/kubectl-tree
+- vcluster, argocd, backstage, crossplane:
+  - https://github.com/samgabrail/vcluster-demos
+  - https://www.youtube.com/watch?v=nIxl2PcEs-0
