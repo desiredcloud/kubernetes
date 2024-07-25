@@ -6,3 +6,4 @@
 - [kubetools](https://collabnix.github.io/kubetools/)
 - [kerno](https://www.kerno.io/resources/kubernetes-tools)
 - [kubefirst](https://docs.kubefirst.io)
+- [teller](https://github.com/tellerops/teller) - secrets management for developers
