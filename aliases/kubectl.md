@@ -1,3 +1,4 @@
+```shell
 alias k='kubectl'
 alias ka='k annotate'
 alias kgn='k get no'
@@ -12,3 +13,4 @@ alias kcuc='k config use-context'
 alias kccc='k config current-context'
 alias kcdc='k config delete-context'
 alias ksns='k config set-context --current --namespace='
+```
